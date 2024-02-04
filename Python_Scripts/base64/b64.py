@@ -1,5 +1,6 @@
+#!usr/bin/python
+
 import argparse
-import sys
 import base64
 
 def encodeBase64(inputString):      
