@@ -15,7 +15,7 @@ Usage:
 ---
 
 <br>
-Sample run:
+sample run:
 <br><br>
 
 > ![screenshot](image.png)
