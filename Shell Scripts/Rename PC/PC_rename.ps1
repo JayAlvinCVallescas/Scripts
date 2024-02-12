@@ -2,6 +2,19 @@
 $old_name = $env:COMPUTERNAME
 $new_name = Read-Host "Enter your name: "
 
+Write-Host "Do you want to add domain?"
+
+Write-Host " [1] Yes"
+Write-Host " [2] No"
+
+$choice = Read-Host
+
+# Add domain
+if ($choice -eq "1") {
+    $new_domain = Read-Host "Enter Domain name: "
+    Add-Computer -DomainName $new_domain
+}
+
 #Renaming the Computer
 Rename-Computer -Name $old_name -NewName $new_name -Force
 
