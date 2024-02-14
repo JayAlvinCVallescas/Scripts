@@ -1,5 +1,6 @@
 #!usr/bin/python
 
+
 import argparse
 import base64
 
@@ -17,8 +18,18 @@ def decodeBase64(inputString):
         return f"Error decoding: {e}"
     
 def main():
+    
     parser = argparse.ArgumentParser(
-        description="A Python program that lets you encode and decode base64 text.\n"
+        description= """
+        ______                   ____    ___ 
+        | ___ \                 / ___|  /   |
+        | |_/ / __ _ ___  ___  / /___  / /| |
+        | ___ \/ _` / __|/ _ \ | ___ \/ /_| |
+        | |_/ / (_| \__ \  __/ | \_/ |\___  |
+        \____/ \__,_|___/\___| \_____/    |_/
+                                                                                
+                    \n"""  
+                    "A Python program that lets you encode and decode base64 text.\n"
                     "Example usage:\n\n"
                     "Encoding:\n"
                     "    python b64.py -e hello\n"
