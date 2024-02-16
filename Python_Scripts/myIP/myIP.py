@@ -16,15 +16,14 @@ def public_IP():
 def main():
     init()
     description = Fore.GREEN + """
-    =====================================
-    |        IP Address Information     |
-    =====================================
+=====================================
+|        IP Address Information     |
+=====================================
 Description: A Python script that enables users to view their public and private addresses.
             
 >>> Made by ZownHori
->>> https://github.com/JayAlvinCVallescas
----------------------------------------------------------------------
-    """
+>>> https://github.com/JayAlvinCVallescas/Scripts/tree/main/Python_Scripts/myIP
+--------------------------------------------------------------------- """
     print(description)
    
     priv_ip = private_IP()
