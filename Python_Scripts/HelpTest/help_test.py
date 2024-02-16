@@ -3,8 +3,9 @@
 from colorama import Fore, Back, Style, init
 import argparse
 
-ascii_art = Fore.GREEN + """
- _____         _                 
+def main():
+  ascii_art = Fore.GREEN + """
+_____         _                 
 |_   _|       | |                
   | | ___  ___| |_   _ __  _   _ 
   | |/ _ \/ __| __| | '_ \| | | |
@@ -12,12 +13,17 @@ ascii_art = Fore.GREEN + """
   \_/\___||___/\__(_) .__/ \__, |
                     | |     __/ |
                     |_|    |___/ 
+              
+Description: Test sample 
+                    
+>>> Made by ZownHori
+>>> https://github.com/JayAlvinCVallescas
+-------------------------------------------------
+Usage: test.py <flag> <ip>
 """
-init()
+  init()
 
-print(ascii_art)
+  print(ascii_art)
 
-description = """ 
-Test sample 
-
-"""
+if __name__ == "__main__":
+  main()
