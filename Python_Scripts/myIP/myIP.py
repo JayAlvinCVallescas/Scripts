@@ -1,5 +1,6 @@
 import socket
 import requests
+from colorama import Fore, init
 
 def private_IP():
     hostname = socket.gethostname()
@@ -13,10 +14,23 @@ def public_IP():
     return f"Your public IP address is: {ip}"
 
 def main():
-   priv_ip = private_IP()
-   print(priv_ip)
-   pub_ip = public_IP()
-   print(pub_ip)
+    init()
+    description = Fore.GREEN + """
+    =====================================
+    |        IP Address Information     |
+    =====================================
+Description: A Python script that enables users to view their public and private addresses.
+            
+>>> Made by ZownHori
+>>> https://github.com/JayAlvinCVallescas
+---------------------------------------------------------------------
+    """
+    print(description)
+   
+    priv_ip = private_IP()
+    print(priv_ip)
+    pub_ip = public_IP()
+    print(pub_ip)
 
 if __name__ == "__main__":
     main()
