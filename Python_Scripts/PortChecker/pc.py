@@ -7,7 +7,7 @@ sock.settimeout(2)
 def main(): 
     init()
     ascii_art = Fore.GREEN + """
-=====================================
+===================================== 
 |            PORT CHECKER           |
 =====================================
 >>> Made by ZownHori
