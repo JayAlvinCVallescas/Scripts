@@ -14,7 +14,7 @@ _____         _
                     | |     __/ |
                     |_|    |___/ 
               
-Description: Test sample 
+Description: Test samplE 
                     
 >>> Made by ZownHori
 >>> https://github.com/JayAlvinCVallescas
