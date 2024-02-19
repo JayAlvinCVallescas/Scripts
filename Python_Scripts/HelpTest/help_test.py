@@ -18,7 +18,7 @@ Description: Test samplE
                     
 >>> Made by ZownHori
 >>> https://github.com/JayAlvinCVallescas
--------------------------------------------------
+-----------------------------------------------------
 Usage: test.py <flag> <ip>
 """
   init()
