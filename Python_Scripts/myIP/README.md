@@ -18,6 +18,5 @@ Usage:
 sample run:
 <br><br>
 
-> ![screenshot](image.png
+> ![screenshot](image.png)
 
----
