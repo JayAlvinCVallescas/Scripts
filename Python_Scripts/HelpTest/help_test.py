@@ -25,7 +25,6 @@ Usage: test.py <flag> <ip>
 
   print(ascii_art)
 
----
 
 if __name__ == "__main__":
   main()
