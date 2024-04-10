@@ -6,5 +6,5 @@ Maliban sa mga kaklase\kaibigan ko. May bayad dapat sa inyo 1m.
 <br>
 Kilala nyo kung sino kayo :laughing:
 
----
+
 
